@@ -75,3 +75,4 @@ Route::get('/testimonial', function () {
 Route::get('/validasi1', function () {
     return view('validasi1');
 });
+#coba
