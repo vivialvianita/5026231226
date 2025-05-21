@@ -1,0 +1,29 @@
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color:#e1f2ff;
+    background-image: radial-gradient(#e1f2ff 20%, pink, rgb(167, 108, 183));
+        color:#000000;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .formatheader {
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .roundedimage {
+        border-radius: 12px;
+    }
+
+    .column {
+        column-count: 5;
+        column-gap: 2;
+        column-rule: solid rgb(162, 225, 244) 2px;
+    }
+
+
+    
