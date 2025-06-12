@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\SofaDBController;
+use App\Http\Controllers\PageCounterController;
 
 //import java.io ;
 
@@ -116,3 +117,6 @@ Route::get('/sofa/edit/{id}', [SofaDBController::class, 'edit']);
 Route::post('/sofa/update', [SofaDBController::class, 'update']);
 Route::get('/sofa/hapus/{id}', [SofaDBController::class, 'hapus']);
 Route::get('/sofa/cari', [SofaDBController::class, 'cari']);
+
+//router LatihanEAS KodeA1
+Route::get('/pagecounter', [PageCounterController::class, 'index']);
