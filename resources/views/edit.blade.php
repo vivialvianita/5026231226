@@ -1,4 +1,4 @@
-@extends('templateBootstrap')
+@extends('template')
 
 @section('content')
 

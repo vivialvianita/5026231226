@@ -1,4 +1,4 @@
-@extends('templateBootstrap')
+@extends('template')
 @section('content')
 
 <h3>Edit Sofa</h3>

@@ -7,6 +7,7 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\SofaDBController;
 use App\Http\Controllers\PageCounterController;
+use App\Http\Controllers\KaryawanController;
 
 //import java.io ;
 
@@ -80,8 +81,8 @@ Route::get('/testimonial', function () {
     return view('testimonial');
 });
 
-Route::get('/validasi1', function () {
-    return view('validasi1');
+Route::get('/validasi', function () {
+    return view('validasi');
 });
 
 Route::get('dosen',[DosenController::class,'index']);
@@ -118,5 +119,12 @@ Route::post('/sofa/update', [SofaDBController::class, 'update']);
 Route::get('/sofa/hapus/{id}', [SofaDBController::class, 'hapus']);
 Route::get('/sofa/cari', [SofaDBController::class, 'cari']);
 
-//router LatihanEAS KodeA1
+//router pagecounter
 Route::get('/pagecounter', [PageCounterController::class, 'index']);
+
+//route Karyawan
+Route::get('/karyawan', [KaryawanController::class, 'index']);
+Route::get('/karyawan/tambah', [KaryawanController::class, 'tambah']);
+Route::post('/karyawan/store', [KaryawanController::class, 'store']);
+Route::get('/karyawan/delete/{kodepegawai}', [KaryawanController::class, 'delete']);
+Route::get('/karyawan/cari', [KaryawanController::class, 'cari']);

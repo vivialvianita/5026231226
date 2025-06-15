@@ -39,19 +39,19 @@
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item active">
-                        <a class="nav-link" href="indexETS.html">Home</a>
+                        <a class="nav-link" href="indexETS">Home</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="about">About</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
+                        <a class="nav-link" href="services>Services</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="testimonial.html">Testimonial</a>
+                        <a class="nav-link" href="testimonial">Testimonial</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link" href="contact">Contact Us</a>
                      </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
